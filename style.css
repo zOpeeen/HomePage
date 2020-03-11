@@ -1,0 +1,125 @@
+body
+{
+    font-family: sans-serif;
+    color: #3c3939;
+    background-color: #f1f1f1;
+}
+.profile-card
+{
+    width: 500px; 
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+
+}
+
+.image-container
+{
+    position: relative;
+}
+
+.main-container
+{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.skill-bar
+{
+    background-color: #d077f7;
+    border-radius: 16px;
+}
+
+.progess-bar
+{
+    padding: 0.1em 16px;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: darkviolet;
+}
+
+.title
+{
+    color: white;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+
+.info2
+{
+    color: white;
+}
+
+.info3
+{
+    color: darkviolet;
+    margin-right: 16px;  
+    height: 38px;
+
+}
+
+.info
+{
+    color: darkviolet;
+    margin-right: 16px;
+    height: 20px;
+}
+
+.social_medias p
+{
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(to right, darkviolet, #d077f7);
+    border-radius: 50%;
+    margin-right: 95px;
+    line-height: 70px;  
+    text-align: center;
+    font-size: 22px;
+    transition: all 0.4s ease-out;
+}
+
+.social_medias2 p
+{
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(to right, darkviolet, #d077f7);
+    border-radius: 50%;
+    margin-right: 95px;
+    line-height: 70px;  
+    text-align: center;
+    font-size: 22px;
+    transition: all 0.4s ease-out;
+}
+
+.social_medias3 p
+{
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(to right, darkviolet, #d077f7);
+    border-radius: 50%;
+    margin-right: 95px;
+    line-height: 70px;  
+    text-align: center;
+    font-size: 22px;
+    transition: all 0.4s ease-out;
+}
+
+.social_medias:hover
+{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.social_medias2:hover
+{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.social_medias3:hover
+{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
